@@ -1,0 +1,154 @@
+/*
+
+Colors-
+Primary = #134D57
+Secondary = #63DAEF
+Accent = #2FBDD6
+
+Fonts-
+Font 1 = Anton, sans-serif
+
+Font
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+Specify families-
+font-family: 'Anton', sans-serif;
+
+*/
+
+/* Univeral styles */
+
+div h3{
+  color:#2FBDD6;
+  text-align: center;
+  font-size: 35px;
+}
+
+div p{
+  padding-left: 50px;
+  padding-right: 50px;
+text-align: center;
+  font-size: 20px;
+}
+
+div h1{
+  color: #134D57;
+  font-size:20px;
+  text-align: center;
+padding-top: 18px;
+}
+
+.interior img{
+    padding:2px;
+    padding-left: 295px;
+    margin:10px 0 10px 20px;
+    max-width: 50%;
+}
+
+div ul{
+  align-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+div li{
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+body{
+  font-family: 'Anton', sans-serif;
+  margin:0;
+}
+
+header.primary{
+background: url("/dragon/assets/img/Cassiopeia.jpg");
+background-color:#000;
+background-position: center;
+background-size: cover;
+text-align:center;
+color: #ffffff;
+padding:20px;
+padding-top: 20px;
+padding-right: 40px;
+padding-bottom: 20px;
+padding-left:20px;
+padding: 20px 40px 20px 40px;
+padding: 60px 40px;
+}
+
+header.primary h1{
+  font-size:5.0rem;
+  margin: 20px 0 10px;
+}
+
+header.primary h4{
+  font-size:1.5rem;
+  padding-bottom: 20px;
+}
+
+header.primary nav{
+  max-width:960px;   
+  margin:20px auto;
+}
+
+header.primary nav ul{
+  padding:0;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+header.primary nav ul li{
+list-style-type:none;
+}
+
+header.primary nav ul li a{
+  color:#fff;
+  font-size: 25px;
+  text-decoration:none;
+  background-color:#ffffff;
+  background-color:rgba(1, 1, 1, 1);
+  padding:8px 16px;
+  border-radius:15px;
+  border: 1px solid;
+  
+}
+
+#footer{
+  font-size:20px;
+  padding-top: 8px;
+  padding-bottom: 0px
+}
+
+/* Universal styles*/
+
+
+/* History Page Styles */
+
+div h2{
+  text-align: center;
+font-size:18px;
+padding-left:50px;
+padding-right:50px;
+}
+
+caption{
+  padding-left: 300px;
+  padding-bottom: 20px;
+}
+
+table{
+  padding-left: 300px;
+  padding-top: 8px;
+  padding-bottom: 85px;
+}
+
+
+thead th{
+padding-right: 100px;
+width: 125px;
+}
+
